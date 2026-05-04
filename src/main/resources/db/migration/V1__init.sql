@@ -5,7 +5,7 @@ CREATE TABLE orders (
   id UUID PRIMARY KEY,
   city VARCHAR(100) NOT NULL,
   street VARCHAR(200) NOT NULL,
-  house VARCHAR(50 ) NOT NULL,
+  house VARCHAR(50) NOT NULL,
   apartment VARCHAR(50),
   postcode VARCHAR(20) NOT NULL,
 

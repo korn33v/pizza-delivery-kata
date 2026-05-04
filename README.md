@@ -296,3 +296,22 @@ UI использует эндпоинт:
 ```bash
 curl -s http://localhost:8080/orders
 ```
+
+
+---
+
+## Swagger UI / OpenAPI
+
+Swagger UI подключён через `springdoc-openapi-starter-webmvc-ui`.
+
+После запуска backend:
+
+- Swagger UI: `http://localhost:8080/swagger-ui/index.html`
+- Альтернативный путь: `http://localhost:8080/swagger-ui.html`
+- OpenAPI JSON: `http://localhost:8080/v3/api-docs`
+
+Быстрая проверка:
+
+```bash
+curl -s http://localhost:8080/v3/api-docs | head
+```
